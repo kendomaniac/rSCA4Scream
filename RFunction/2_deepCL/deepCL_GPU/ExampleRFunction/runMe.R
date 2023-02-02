@@ -6,6 +6,6 @@ separator=","
 bias="TF"
 permutation=40
 nEpochs=1000
-projectName="Test_CPU"
+projectName="Test_GPU"
 nCluster=3
 deepClusteringGPU(group=c("docker"), scratch.folder=scratch.folder, file=file,separator=separator,nCluster=nCluster, bias=bias, finetune_iters=10, nEpochs=5,projectName=projectName,bN="NULL")
